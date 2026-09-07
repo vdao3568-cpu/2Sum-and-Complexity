@@ -73,21 +73,25 @@ void runTests() {
 
     printResult(twoSumBruteForce(test2, target2), twoSumHash(test2, target2));
 
-    vector<int> test3 = {10, 9, 39};
+    vector<int> test3 = {10, 9, 5, 14};
     int target3 = 19;
 
     printResult(twoSumBruteForce(test3, target3), twoSumHash(test3, target3));
 
-    vector<int> test4 = {8, 9, 26, 72, 42};
-    int target4 = 114;
+    vector<int> test4 = {5, 5};
+    int target4 = 10;
 
     printResult(twoSumBruteForce(test4, target4), twoSumHash(test4, target4));
 
-    vector<int> test5 = {1, 2, 3, 4, 5, 6, 59};
-    int target5 = 6;
+    vector<int> test5 = {1, 2, 3, -4, 5, 6};
+    int target5 = 2;
 
     printResult(twoSumBruteForce(test5, target5), twoSumHash(test5, target5));
 
+    vector<int> test6 {0, 2, 4};
+    int target6 = 2;
+
+    printResult(twoSumBruteForce(test6, target6), twoSumHash(test6, target6));
 }
 
 int main() {
