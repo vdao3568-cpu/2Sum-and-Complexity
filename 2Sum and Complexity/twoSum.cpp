@@ -1,3 +1,6 @@
+// Vincent Dao 9/6/2026
+// Honor Code: I solomnly swear that I have not plagerized this work from anybody or borrowed without permission
+
 // Stolen from code given by professor: twoSum then renamed to twoSumHash, main then modified to impliment twoSumBruteForce and test cases
 // Grok 4.5 used to check if documentation is correct for twoSumHash 9/6
 // Grok 4.5 continuation: figured out that you have to use first and second instead of indexes for pair<int, int>
